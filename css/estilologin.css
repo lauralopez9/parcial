@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del viewport */
+}
+
+#loginForm {
+    width: 400px; /* Ancho del formulario */
+    padding: 30px; /* Aumentar el espacio interior */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+#loginForm label {
+    display: inline-block;
+    width: 100px; /* Ancho de la etiqueta */
+    margin-bottom: 10px;
+}
+
+#loginForm input {
+    width: calc(100% - 10px); /* Ancho del input, restando el ancho de la etiqueta y el margen */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    max-width: 250px; /* Ancho máximo de la casilla de entrada */
+}
+
+#loginForm button {
+    width: calc(33.33% - 5px); /* Ancho del botón, dividido entre 3 y restando el espacio del margen */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px; /* Margen entre botones */
+}
+
+#loginForm button:last-child {
+    margin-right: 0; /* Eliminar margen del último botón para evitar desbordamiento */
+}
+
+#loginForm button:hover {
+    background-color: #0056b3;
+}
+
+#loginForm .button-group {
+    display: flex;
+    justify-content: center;
+}
+
+#signupFormContainer {
+    margin-top: 50px; /* Ajusta este valor según lo necesites para posicionar el formulario */
+}
+
+.nav {
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    margin-bottom: 20px; /* Establece un margen inferior de 20px */
+    margin-left: 10px; /* Establece un margen izquierdo de 10px */
+    margin-right: 10px; /* Establece un margen derecho de 10px */
+    margin: 20px 10px; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho de 10px */
+    border: 1px solid #ccc; 
+  }
+  
+  nav {
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    margin-bottom: 20px; /* Establece un margen inferior de 20px */
+    margin-left: 10px; /* Establece un margen izquierdo de 10px */
+    margin-right: 10px; /* Establece un margen derecho de 10px */
+    margin: 20px 10px; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho de 10px */
+    border: 1px solid #ccc; 
+  }
+  
+  .navbar {
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    margin-bottom: 20px; /* Establece un margen inferior de 20px */
+    margin-left: 10px; /* Establece un margen izquierdo de 10px */
+    margin-right: 10px; /* Establece un margen derecho de 10px */
+    border: 1px solid #ccc; /* Agrega un borde de 1px de grosor, sólido y de color gris claro */
+  }
+  
+  .barra-superior {
+    color: #0a0a0a; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    width: calc(100% - 22px); /* Ancho del 100% menos el margen izquierdo y derecho */
+    margin-left: 11px; /* Ajusta el margen izquierdo para centrar la barra */
+    margin-right: 11px; /* Ajusta el margen derecho para centrar la barra */
+    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+  }
+  
+
+  
+  .navbar-nav .nav-link {
+    color: #000; /* Color del texto de los enlaces */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Color del texto de los enlaces al pasar el ratón por encima */
+  }
+  
+  .mi-color-1 {
+    background-color: #f380da; /* Color de fondo de la barra */
+  }
+  
+  .mi-color-2 {
+    background-color: #0099ff; /* Otro color de fondo de la barra */
+  }
+  

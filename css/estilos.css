@@ -1,0 +1,86 @@
+.carousel-item img {
+    max-height: 500px; /* tamaño de las imagenes */
+    
+}
+
+.cambioColor {
+    color: rgb(248, 246, 246); /* Cambia el color del texto  */
+    background-color: rgb(204, 122, 227); /* Cambia el color de fondo */
+}
+
+/* tarjetas de los productos*/
+.card {
+    height: 100%; /* Establece una altura fija para las tarjetas */
+}
+
+.card-img-top {
+    width: 100%; /* ancho de la imagen al 100% del contenedor */
+    height: 100%; /* altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor manteniendo la proporción */
+}
+
+/*delinear acordeon de sobre nosotros*/
+.accordion-item {
+    border: 1px solid #000;
+  }
+  
+/*separador en sobre nosotros */
+.separator {
+    border: none;
+    height: 3px; /* Grosor de la línea */
+    background-color: #000000; /* Color de la línea negro */
+    margin: 20px 0; /* Margen superior e inferior para separar las partes */
+}
+
+nav {
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    margin-bottom: 20px; /* Establece un margen inferior de 20px */
+    margin-left: 10px; /* Establece un margen izquierdo de 10px */
+    margin-right: 10px; /* Establece un margen derecho de 10px */
+    margin: 20px 10px; /* Establece márgenes superior e inferior de 20px y márgenes izquierdo y derecho de 10px */
+    border: 1px solid #ccc; 
+  }
+  
+  .navbar {
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    margin-bottom: 20px; /* Establece un margen inferior de 20px */
+    margin-left: 10px; /* Establece un margen izquierdo de 10px */
+    margin-right: 10px; /* Establece un margen derecho de 10px */
+    border: 1px solid #ccc; /* Agrega un borde de 1px de grosor, sólido y de color gris claro */
+  }
+  
+  .barra-superior {
+    color: #0c0c0c; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    width: calc(100% - 22px); /* Ancho del 100% menos el margen izquierdo y derecho */
+    margin-left: 11px; /* Ajusta el margen izquierdo para centrar la barra */
+    margin-right: 11px; /* Ajusta el margen derecho para centrar la barra */
+    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+  }
+  
+
+  
+  .navbar-nav .nav-link {
+    color: #000; /* Color del texto de los enlaces */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333; /* Color del texto de los enlaces al pasar el ratón por encima */
+  }
+  
+  .mi-color-1 {
+    background-color: #f380da; /* Color de fondo de la barra */
+  }
+  
+  .mi-color-2 {
+    background-color: #0099ff; /* Otro color de fondo de la barra */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
